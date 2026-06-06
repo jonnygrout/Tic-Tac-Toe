@@ -1,0 +1,25 @@
+#board {
+    width: auto;
+    height: auto;
+    align: center middle;
+    grid-gutter: 1;
+}
+
+.cell {
+    width: 4;
+    height: 4;
+    margin: 1;
+    padding: 1;
+}
+
+/* base button look */
+Button {
+    border: round gray;
+}
+
+/* selection highlight */
+Button.selected {
+    border: heavy cyan;
+    background: cyan;
+    color: black;
+}
